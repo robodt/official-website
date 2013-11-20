@@ -14,7 +14,7 @@ Don't let it stop you from trying! If you have any feedback please let me know o
 
 ## Requirements
 
-The only thing you need is a webserver like Apache, IIS or NGINX with [PHP](//php.net/) support, version 5.3.0 or newer. You can check this by making a PHP-file with the following contents:
+The only thing you need is a webserver like [Apache](http://httpd.apache.org/), [IIS](http://www.iis.net/) or [NGINX](http://nginx.org/) with [PHP](http://php.net/) support, version 5.3.0 or newer. You can check this by making a PHP-file with the following contents:
 
 <?php print PHP_VERSION; ?>
 
