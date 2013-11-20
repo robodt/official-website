@@ -1,0 +1,39 @@
+
+title: Documentation
+date: 2013-11-20
+
+----
+
+## Work in progress
+
+Robodt is still in some heavy development, it's currently released as beta. You can safely use it for live websites. But most features, packages, distributions and documentation are just not complete yet. API changes can also happen in future releases.
+
+Don't let it stop you from trying! If you have any feedback please let me know on [Twitter](//twitter.com/slurfhondje)!
+
+---
+
+## Robodt Core: API Reference
+
+- Settings
+- Tree
+- Navigation
+- Index
+- Request
+
+## Roadmap
+
+## This will be added to the documentation
+
+- How Robodt works
+- Choosing a theme engine
+- Creating templates
+	- PHP
+	- Twig
+	- Choose your own templating system
+	- Create different types of menus
+- Creating extensions
+- Switch to other frameworks
+	- Writing a framework wrapper
+	- Writing adapters
+- Implementation into existing apps
+- Packages and distributions overview
