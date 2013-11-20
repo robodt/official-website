@@ -1,0 +1,18 @@
+
+title: Contact
+
+----
+
+Robodt is designed and build by [Tim van Bergenhenegouwen](http://slurfhondje.nl/) at [Zomnium](http://zomnium.com/).
+
+### Found a bug?
+
+It's open source (and beta) software, if you would like to report it on our [Github](https://github.com/robodt/robodt/issues) page, that would be nice! Of course you can also make a pull request if you want to help out.
+
+### Keep up to date
+
+You can find me on Twitter: [@slurfhondje](//twitter.com/slurfhondje). An e-mail newsletter is coming soon.
+
+### Open Source
+
+Looking for sourcecode? Do you want to fork? All repositories are available on [Github](https://github.com/robodt)!
