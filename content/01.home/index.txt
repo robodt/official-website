@@ -1,0 +1,36 @@
+
+title: Robodt
+navigation: Home
+url: 
+
+----
+
+##Flexible and lightweight markdown CMS
+
+### Why choose Robodt?
+
+- Easy to use.
+- Lightweight and fast.
+- No database, just files.
+- Very easy to maintain and back-up.
+- Simple theming.
+- Flexible and extendable.
+- It's free!
+
+### Nerdy info:
+
+- [Markdown](http://daringfireball.net/projects/markdown/) as content format, everything is file based.
+- Built for [Composer](http://getcomposer.org/), so installation and updates are a breeze when you're a little comfortable with command line.
+- Out of the box Robodt uses the [Slim framework](http://slimframework.com/), because it's lightweight, but it's easy to switch to other frameworks like [Symfony](http://symfony.com/), [Silex](http://silex.sensiolabs.org), [Fat-Free](http://fatfreeframework.com/) or [Laravel](http://laravel.com/).
+- Choose your favourite [templating system](https://github.com/codeguy/Slim-Extras).
+- Components are also usable in existing applications.
+- So, in short, easy to extend and modify.
+- Oh, have I mentioned that it's open source?!
+
+### Why another CMS?
+
+Most websites are not that complicated and populair CMS's like [Wordpress](http://wordpress.org/) and [Drupal](http://drupal.org) are really awesome. But also a pain in the ass. Maintenance, security updates, staging environments and back-ups are time consuming and hard to deal with. They have a lot of features, but to many for most websites and that makes them a bit slow.
+
+That's where a simple, but flexible, file based markdown CMS like Robodt comes in! It only will do what it supposed to be doing, nothing more. Unless you want to, you can extend it with extra features when needed. Everything is file-based, that means, no database. All content is saved in directories and text files on the server. Of course you can also add images and other media! This makes it easy to back-up, duplicate, move or stage the website. You can even use git for your content and settings, [like this website](https://github.com/robodt/official-website).
+
+But aren't there several other markdown CMS's? Yes, but they're not build for [Composer](http://getcomposer.org/) with the ability to switch to your own framework and template engine or even intergrate it with an existing application. You can implement, overwrite and extend almost everything. Less is more!
