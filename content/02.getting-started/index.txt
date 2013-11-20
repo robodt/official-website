@@ -1,0 +1,47 @@
+
+title: Getting started
+date: 2013-07-27
+
+----
+
+## Work in progress
+
+Robodt is still in some heavy development, it's currently released as beta. You can safely use it for live websites. But most features, packages, distributions and documentation are just not complete yet. API changes can also happen in future releases.
+
+Don't let it stop you from trying! If you have any feedback please let me know on [Twitter](//twitter.com/slurfhondje)!
+
+---
+
+## Requirements
+
+The only thing you need is a webserver like Apache, IIS or NGINX with [PHP](//php.net/) support, version 5.3.0 or newer. You can check this by making a PHP-file with the following contents:
+
+<?php print PHP_VERSION; ?>
+
+## Choose a distribution
+
+There will be several pre-build distributions, so you can pick the one most suited for you or even build your own! **On the moment it's just the lite distribution**. If you wan't to know more, there is a list of packages and distributions that will be available in the future: [the roadmap](/documentation/roadmap).
+
+### Robodt Lite
+
+Fastest and most lightweight option available. The only thing it does is handle requests and content. There is no admin panel of any kind. Packages used:
+
+- Robodt Core
+- Robodt Adapter Framework Slim
+- Robodt Lite Distrobution
+
+### Installation
+
+Note: commandline is the only available option at the time, download button will also be added in the future.
+
+### OS X / *NIX
+
+- Open up your commandline terminal.
+- Navigate to the destination directory.
+- Download Composer: curl -sS https://getcomposer.org/installer | php
+- Install Robodt: php composer.phar create-project robodt/lite
+- Your done, check it out locally or just upload the files with FTP!
+
+### Windows
+
+Will be added!
