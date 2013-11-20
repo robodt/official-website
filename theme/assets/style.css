@@ -1,0 +1,175 @@
+
+
+/*
+ * Page Layout
+ */
+
+body {
+	background-color: #eee;
+	color: rgb(85,90,80);
+	line-height: 135%;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 690px;
+	padding: 0 18px;
+}
+
+.page {
+	padding: 18px 0 0;
+}
+
+
+/*
+ * Header
+ */
+
+.heading {
+	background-color: rgb(85,90,80);
+	padding: 0 0 36px;
+}
+
+.header {
+	padding: 54px 0 36px;
+	text-align: center;
+}
+
+#header-logo {
+	height: 270px;
+}
+
+
+/*
+ * Navigation
+ */
+
+.navigation {
+	text-align: center;
+}
+
+.navigation ul,
+.navigation li {
+	padding: 0;
+	margin: 0;
+}
+
+.navigation li {
+	display:  inline;
+	list-style: none;
+}
+
+@media screen and (max-width:630px) {
+	.navigation li {
+		display: block;
+		line-height: 220%;
+	}
+}
+
+.navigation a {
+	border-bottom: 1px solid rgb(100,225,45);
+	color: rgb(100,225,45);
+	font-size: 84%;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 9px;
+	padding: 0 0 9px;
+}
+
+.navigation a:hover,
+.navigation .active a {
+	border-color: #eee;
+	color: #eee;
+}
+
+
+/*
+ * Page Content
+ */
+
+h1, h2 {
+	color: #333;
+	line-height: 120%;
+}
+
+hr {
+	border: none;
+	border-bottom: 1px solid rgb(85,90,80);
+}
+
+.page a,
+.footer a {
+	color: rgb(85,90,80);
+	text-decoration: underline;
+}
+
+.page a:hover,
+.footer a:hover {
+	background-color: rgb(100,255,45);
+}
+
+
+/*
+ * Footer
+ */
+
+.footer {
+	border-top: 1px solid rgb(85,90,80);
+	font-size: 84%;
+	margin: 54px 0 18px;
+	padding: 18px 0 0;
+}
+
+.footer p {
+	margin: 0;
+}
+
+
+/*
+ * Debug Panel
+ */
+
+.date {
+	font-style: italic;
+}
+
+.debug {
+	background-color: #eee;
+	border: 1px solid rgb(85,90,80);
+	color: rgb(85,90,80);
+	display: block;
+	padding: 6px 9px 4px;
+	position: fixed;
+	right: 30px;
+	text-decoration: none;
+	top: 15px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.debug:hover {
+	background-color: rgb(100,255,45);
+}
+
+#debugPanel {
+	background: #fff;
+	bottom: 60px;
+	box-shadow: 0 0 9px #666;
+	left: 30px;
+	position: fixed;
+	right: 30px;
+	top: 60px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#debugPanel pre {
+	bottom: 0;
+	left: 12px;
+	overflow: scroll;
+	position: absolute;
+	right: 12px;
+	top: 0;
+}
