@@ -43,9 +43,9 @@ Note: commandline is the only available option at the time, a download button wi
 ### *NIX / OS X
 
 - Open up your commandline terminal.
-- Navigate to the project directory.
+- Navigate to the directory above your project.
 - Download Composer: curl -sS https://getcomposer.org/installer | php
-- Install Robodt: php composer.phar create-project robodt/lite-edition
+- Install Robodt: php composer.phar create-project robodt/light-edition [projectname]
 - Your done, check it out locally or just upload the files with FTP!
 
 
