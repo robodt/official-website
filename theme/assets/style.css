@@ -108,6 +108,10 @@ hr {
 	background-color: rgb(100,255,45);
 }
 
+.date {
+	font-style: italic;
+}
+
 
 /*
  * Footer
@@ -122,54 +126,4 @@ hr {
 
 .footer p {
 	margin: 0;
-}
-
-
-/*
- * Debug Panel
- */
-
-.date {
-	font-style: italic;
-}
-
-.debug {
-	background-color: #eee;
-	border: 1px solid rgb(85,90,80);
-	color: rgb(85,90,80);
-	display: block;
-	padding: 6px 9px 4px;
-	position: fixed;
-	right: 30px;
-	text-decoration: none;
-	top: 15px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-
-.debug:hover {
-	background-color: rgb(100,255,45);
-}
-
-#debugPanel {
-	background: #fff;
-	bottom: 60px;
-	box-shadow: 0 0 9px #666;
-	left: 30px;
-	position: fixed;
-	right: 30px;
-	top: 60px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-
-#debugPanel pre {
-	bottom: 0;
-	left: 12px;
-	overflow: scroll;
-	position: absolute;
-	right: 12px;
-	top: 0;
 }

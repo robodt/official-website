@@ -34,10 +34,7 @@
 	</div><!-- .heading -->
 
 
-
 	<div class="container">
-
-
 		<div class="page">
 			<h1><?php if (isset($request['metadata']['title'])) print $request['metadata']['title']; ?></h1>
 			<div class="page-content">
@@ -52,20 +49,7 @@
 		<div class="footer">
 			<p><?php print $settings['theme.footer_text']; ?></p>
 		</div><!-- .footer -->
-
-
-		<?php if (isset($debug)) : ?>
-		<a href="#" class="debug"><span style="display:none;">Close</span><span>Debug</span></a>
-		<div id="debugPanel" style="display:none;">
-			<pre><?php print_r($debug); ?></pre>
-		</div><!-- #debugPanel -->
-		<?php endif; ?>
-
-
 	</div><!-- .container -->
-
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
 </body>
