@@ -4,13 +4,15 @@ date: 2013-07-27
 
 ----
 
+
 ## Work in progress
 
 Robodt is still in some heavy development, it's currently released as beta. You can safely use it for live websites. But most features, packages, distributions and documentation are just not complete yet. API changes can also happen in future releases.
 
-Don't let it stop you from trying! If you have any feedback please let me know on [Twitter](//twitter.com/slurfhondje)!
+Don't let it stop you from trying, if you have any feedback please let me know on [Twitter](//twitter.com/slurfhondje)!
 
 ---
+
 
 ## Requirements
 
@@ -18,29 +20,34 @@ The only thing you need is a webserver like [Apache](http://httpd.apache.org/), 
 
 <?php print PHP_VERSION; ?>
 
+
 ## Choose a distribution
 
-There will be several pre-build distributions, so you can pick the one most suited for you or even build your own! **On the moment it's just the lite distribution**. If you wan't to know more, there is a list of packages and distributions that will be available in the future: [the roadmap](/documentation/roadmap).
+There will be several pre-build distributions, so you can pick the one most suited for you or even build your own! **On the moment it's just the lite distribution**. If you wan't to know more, there is a list of packages and distributions that will be available in the future: [the roadmap](/documentation).
 
-### Robodt Lite
+
+### Robodt Lite Edition
 
 Fastest and most lightweight option available. The only thing it does is handle requests and content. There is no admin panel of any kind. Packages used:
 
-- Robodt Core
-- Robodt Adapter Framework Slim
-- Robodt Lite Distrobution
+- robodt/robodt: Robodt Core
+- robodt/adapter-fw-slim: Slim Framework Adapter
+- robodt/light-edition: Robodt Lite Distrobution
+
 
 ### Installation
 
-Note: commandline is the only available option at the time, download button will also be added in the future.
+Note: commandline is the only available option at the time, a download button will also be added in the future.
 
-### OS X / *NIX
+
+### *NIX / OS X
 
 - Open up your commandline terminal.
-- Navigate to the destination directory.
+- Navigate to the project directory.
 - Download Composer: curl -sS https://getcomposer.org/installer | php
-- Install Robodt: php composer.phar create-project robodt/lite
+- Install Robodt: php composer.phar create-project robodt/lite-edition
 - Your done, check it out locally or just upload the files with FTP!
+
 
 ### Windows
 
