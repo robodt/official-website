@@ -8,8 +8,8 @@
 
 	<title><?php if (isset($request['metadata']['title'])) print $request['metadata']['title']; ?> - <?php print $settings['site.name']; ?></title>
 
-	<link rel="stylesheet" href="/site/theme/assets/normalize.css">
-	<link rel="stylesheet" href="/site/theme/assets/style.css" />
+	<link rel="stylesheet" href="<?php print $settings['theme.assets']; ?>normalize.css">
+	<link rel="stylesheet" href="<?php print $settings['theme.assets']; ?>style.css" />
 
 </head>
 <body>
@@ -19,13 +19,13 @@
 		<div class="container">
 
 			<div class="header">
-				<a href="/"><img src="/site/theme/assets/robodt-logo.svg" id="header-logo" /></a>
+				<a href="<?php print $settings['site.url']; ?>"><img src="<?php print $settings['theme.assets']; ?>robodt-logo.svg" id="header-logo" /></a>
 			</div><!-- .header -->
 
 			<div class="navigation">
 				<ul>
 <?php foreach ($navigation as $navigation_item) : ?>
-					<li<?php if ($navigation_item['active']) print ' class="active"';?>><a href="/<?php print $navigation_item['url']; ?>"><?php print $navigation_item['title']; ?></a></li>
+					<li<?php if ($navigation_item['active']) print ' class="active"';?>><a href="<?php print $settings['site.url'] . $navigation_item['url']; ?>"><?php print $navigation_item['title']; ?></a></li>
 <?php endforeach; ?>
 				</ul>
 			</div><!-- .navigation -->
@@ -65,15 +65,7 @@
 	</div><!-- .container -->
 
 
-	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
-	<script src="/site/theme/assets/jquery-1.9.1.min"></script>
-	<script>
-		$('.debug').click(function() {
-			$('#debugPanel').toggle('slow');
-			$('.debug span').toggle();
-			return false;
-		});
-	</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
 </body>
