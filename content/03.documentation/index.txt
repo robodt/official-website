@@ -4,25 +4,47 @@ date: 2013-11-20
 
 ----
 
+
 ## Work in progress
 
 Robodt is still in some heavy development, it's currently released as beta. You can safely use it for live websites. But most features, packages, distributions and documentation are just not complete yet. API changes can also happen in future releases.
 
-Don't let it stop you from trying! If you have any feedback please let me know on [Twitter](//twitter.com/slurfhondje)!
+Don't let it stop you from trying, if you have any feedback please let me know on [Twitter](//twitter.com/slurfhondje)!
 
 ---
 
+
 ## Robodt Core: API Reference
 
-- Settings
-- Tree
-- Navigation
-- Index
-- Request
+- Settings: All loaded settings.
+- Tree: Contains a file tree of the site content directory.
+- Navigation: Multi-dimensional array with titles, active states and sub-items.
+- Index: Indexation of all content, matches url's to filepath.
+- Request: Contains the current page, content and metadata like title, date and such.
+
 
 ## Roadmap
 
-## This will be added to the documentation
+Some things that will be added to the core functionallity of Robodt:
+
+- Caching
+- Logging
+- Better framework adapters
+- More extensibility
+- Environments
+- Content API
+- Posts support
+- Theme functions
+
+Distributions that will be released in the future:
+
+- Light (preview available): Only renders content, no admin interface.
+- Regular: Little CMS with adminpanel and content editor.
+- Multisite-light: Multisite version of the light edition.
+- Multisite-regular: Multisite version of the regular edition.
+
+
+## This will be added to the documentation:
 
 - How Robodt works
 - Choosing a theme engine
