@@ -16,11 +16,12 @@ Don't let it stop you from trying, if you have any feedback please let me know o
 
 ## Robodt Core: API Reference
 
-- Settings: All loaded settings.
-- Tree: Contains a file tree of the site content directory.
-- Navigation: Multi-dimensional array with titles, active states and sub-items.
-- Index: Indexation of all content, matches url's to filepath.
-- Request: Contains the current page, content and metadata like title, date and such.
+- settings: All loaded settings.
+- tree: Contains a file tree of the site content directory.
+- navigation: Multi-dimensional array with titles, active states and sub-items.
+- index: Indexation of all content, matches url's to filepath.
+- request: Contains the current page, content and metadata like title, date and such are available in request metadata key.
+- debug: Contains an array of the total API outputted by Robodt, you can print_r or var_dump this in your template in development.
 
 
 ## Roadmap
