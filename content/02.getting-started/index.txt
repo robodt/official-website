@@ -1,6 +1,6 @@
 
 title: Getting started
-date: 2013-07-27
+date: 2013-11-24
 
 ----
 
@@ -16,39 +16,46 @@ Don't let it stop you from trying, if you have any feedback please let me know o
 
 ## Requirements
 
-The only thing you need is a webserver like [Apache](http://httpd.apache.org/), [IIS](http://www.iis.net/) or [NGINX](http://nginx.org/) with [PHP](http://php.net/) support, version 5.3.0 or newer. You can check this by making a PHP-file with the following contents:
+The only thing you need is a webserver like [Apache](http://httpd.apache.org/), [IIS](http://www.iis.net/) or [NGINX](http://nginx.org/) with [PHP](http://php.net/) support, version 5.3.0 or newer. Easy setups are also available, [WAMP](http://www.wampserver.com/en/) for Windows or [MAMP](http://www.mamp.info/en/index.html) for OS X. You can check this by making a PHP-file with the following contents:
 
-<?php print PHP_VERSION; ?>
+&lt;?php print PHP_VERSION;
+
+When installing through command-line you also need to check your command-line version of php. You can do this using by executing the following: php -v
 
 
 ## Choose a distribution
 
-There will be several pre-build distributions, so you can pick the one most suited for you or even build your own! **On the moment it's just the lite distribution**. If you wan't to know more, there is a list of packages and distributions that will be available in the future: [the roadmap](/documentation).
+There will be several pre-build distributions, so you can pick the one most suited for you or even build your own. **On the moment it's just the lite distribution**. If you wan't to know more, there is a list of packages and distributions that will be available in the future on [the documentation](/documentation) page.
 
 
 ### Robodt Lite Edition
 
-Fastest and most lightweight option available. The only thing it does is handle requests and content. There is no admin panel of any kind. Packages used:
+Fastest and most lightweight option available. The only thing it does is handling requests and content. There is no admin panel of any kind. Packages used:
 
 - robodt/robodt: Robodt Core
 - robodt/adapter-fw-slim: Slim Framework Adapter
-- robodt/light-edition: Robodt Lite Distrobution
 
 
-### Installation
+#### Download
 
-Note: commandline is the only available option at the time, a download button will also be added in the future.
+Not comfortable with the command-line installation? Just download the files:
 
-
-### *NIX / OS X
-
-- Open up your commandline terminal.
-- Navigate to the directory above your project.
-- Download Composer: curl -sS https://getcomposer.org/installer | php
-- Install Robodt: php composer.phar create-project robodt/light-edition [projectname]
-- Your done, check it out locally or just upload the files with FTP!
+[Download robodt_light-edition-0.1.1.zip](/downloads/robodt_light-edition-0.1.1.zip)
 
 
-### Windows
+#### Command-line: *NIX / OS X
 
-Will be added!
+1. Open up your terminal.
+2. Navigate to the directory above your project.
+3. Download Composer: curl -sS https://getcomposer.org/installer | php
+4. Install Robodt: php composer.phar create-project robodt/light-edition [projectname]
+5. Your done, check it out locally or just upload the files with FTP!
+
+
+#### Command-line: Windows
+
+1. [Install Composer](http://getcomposer.org/doc/00-intro.md#installation-windows)
+2. Open up your command-line.
+3. Navigate to the directory above your project.
+4. Install Robodt: composer create-project robodt/light-edition [projectname]
+5. Your done, check it out locally or just upload the files with FTP!
