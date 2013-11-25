@@ -20,15 +20,15 @@ The only thing you need is a webserver like [Apache](http://httpd.apache.org/), 
 
 &lt;?php print PHP_VERSION;
 
-When installing through command-line you also need to check your command-line version of php. You can do this using by executing the following: php -v
+When installing through Composer you also need to check your command-line version of php. You can do this using by executing the following: php -v
 
 
 ## Choose a distribution
 
-There will be several pre-build distributions, so you can pick the one most suited for you or even build your own. **On the moment it's just the lite distribution**. If you wan't to know more, there is a list of packages and distributions that will be available in the future on [the documentation](/documentation) page.
+There will be several pre-build distributions, so you can pick the one most suited for you or even build your own. **On the moment it's just the light edition**. If you wan't to know more, there is a list of packages and distributions that will be available in the future on [the documentation](/documentation) page.
 
 
-### Robodt Lite Edition
+### Robodt Light Edition
 
 Fastest and most lightweight option available. The only thing it does is handling requests and content. There is no admin panel of any kind. Packages used:
 
@@ -36,14 +36,7 @@ Fastest and most lightweight option available. The only thing it does is handlin
 - robodt/adapter-fw-slim: Slim Framework Adapter
 
 
-#### Download
-
-Not comfortable with the command-line installation? Just download the files:
-
-[Download robodt_light-edition-0.1.1.zip](/downloads/robodt_light-edition-0.1.1.zip)
-
-
-#### Command-line: *NIX / OS X
+#### Install with Composer (*NIX/OS X)
 
 1. Open up your terminal.
 2. Navigate to the directory above your project.
@@ -52,10 +45,17 @@ Not comfortable with the command-line installation? Just download the files:
 5. Your done, check it out locally or just upload the files with FTP!
 
 
-#### Command-line: Windows
+#### Install with Composer (Windows)
 
 1. [Install Composer](http://getcomposer.org/doc/00-intro.md#installation-windows)
 2. Open up your command-line.
 3. Navigate to the directory above your project.
 4. Install Robodt: composer create-project robodt/light-edition [projectname]
 5. Your done, check it out locally or just upload the files with FTP!
+
+
+#### Download
+
+Not comfortable with command-line? Just download the files here:
+
+[Download robodt_light-edition-0.1.1.zip](/downloads/robodt_light-edition-0.1.1.zip)
