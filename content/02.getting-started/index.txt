@@ -20,7 +20,7 @@ The only thing you need is a webserver like [Apache](http://httpd.apache.org/), 
 
 &lt;?php print PHP_VERSION;
 
-When installing through Composer you also need to check your command-line version of php. You can do this using by executing the following: php -v
+When installing through Composer you also need to check your command-line version of php. You can do this by executing the following: php -v
 
 
 ## Choose a distribution
