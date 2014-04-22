@@ -58,4 +58,4 @@ Fastest and most lightweight option available. The only thing it does is handlin
 
 Not comfortable with command-line? Just download the files here:
 
-[Download robodt_light-edition-0.1.1.zip](/downloads/robodt_light-edition-0.1.1.zip)
+[Download robodt_light-edition-0.1.2.zip](/downloads/robodt_light-edition-0.1.2.zip)
